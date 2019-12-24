@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>parallax學校練習</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            height: 1500px;
+        }
+
+        .index-banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://scontent.frmq2-2.fna.fbcdn.net/v/t1.0-9/296492_2454626797866_1868505519_n.jpg?_nc_cat=104&_nc_oc=AQl9oxWKAoT1XAhfo7Z_Baqpj8FjbOno-rM40sHbpjFaLoWGacILpGUDe_eQgiYDVcU&_nc_ht=scontent.frmq2-2.fna&oh=181326baf72ec419accf2dee4c4b5f51&oe=5E30D9FF");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.645);
+        }
+
+        .index-title {
+            padding: 12px;
+            background-color: rgb(48, 46, 46);
+            font-size: 35px;
+            color: white;
+            position: relative;
+            left: calc(50% - 145px);
+            top: calc(50% - 44px);
+            letter-spacing: 5px;
+            font-family: 'Pacifico', cursive;
+
+        }
+
+        #content {
+            padding: 50px;
+        }
+
+        .content-title {
+            text-align: center;
+            color: purple;
+        }
+
+        .content-text {
+            text-align: justify;
+            color: rgb(48, 46, 46);
+            line-height: 1.5;
+            font-size: 22px;
+            font-family: 'Lobster', cursive;
+        }
+
+        .content-banner {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://images.freeimages.com/images/large-previews/c64/interior-view-1558829.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .banner-title {
+            position: absolute;
+            padding: 42px;
+            font-size: 30px;
+            color: green;
+            top: calc(50% - 50px);
+            left: calc(50% - 125px);
+            letter-spacing: 5px;
+            font-family: 'Source Serif Pro', serif;
+        }
+        .banner-text {
+            padding: 15px;
+            background-color: saddlebrown;
+            text-align: justify;
+            color: white;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        .footer-banner {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            background-image: url("https://images.freeimages.com/images/large-previews/eef/wrinkle-in-time-1490483.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .footer-title {
+            padding: 42px;
+            font-size: 30px;
+            color: red;
+            position: absolute;
+            left: calc(50% - 125px);
+            top: calc(50% - 50px);
+            letter-spacing: 5px;
+            font-family: 'Pacifico', cursive;
+        }
+        .footer-text {
+            padding: 15px;
+            background-color: rgb(3, 97, 92);
+            text-align: justify;
+            color: white;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        .cool-banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://images.freeimages.com/images/large-previews/db9/pocket-watch-1-1470859.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .cool-title {
+            padding: 12px;
+            background-color: rgb(48, 46, 46);
+            font-size: 35px;
+            color: white;
+            position: relative;
+            left: calc(50% - 125px);
+            top: calc(50% - 31px);
+            letter-spacing: 15px;
+            font-family: 'Anton', sans-serif;
+
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="index-banner">
+            <div class="index-banner">
+                <div class="mask">
+                    <span class="index-title">JULIE YANG</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="content">
+            <h1 class="content-title">PARALLAX DEMO</h1>
+            <div class="content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem tempore, ea ducimus
+                repellendus beatae dolor! Reiciendis aliquam, dolor ipsum enim repellendus sed fugit delectus, eum
+                voluptatem vel vero, nisi officiis assumenda debitis. Expedita fuga dignissimos eaque veritatis
+                voluptatum? Ad rem quod quisquam eum cum ducimus corporis sequi quasi placeat ratione eaque architecto
+                quae nemo, nulla enim omnis tempora et! Tempore doloremque, enim nobis, voluptates temporibus, iste
+                eaque expedita quisquam sed sapiente magnam laboriosam! Fugiat totam placeat cupiditate corporis
+                aspernatur et delectus eaque at voluptatibus a doloribus nobis nulla, accusantium, mollitia perferendis
+                quod fugit veritatis. Fuga facilis reiciendis suscipit aut deserunt!
+
+            </div>
+
+        </section>
+
+        <section id="banner">
+            <div class="content-banner">
+                <div class="mask">
+                    <span class="banner-title">JULIE RESUME</span>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="banner-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, iusto.
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="footer-banner">
+                <div class="mask">
+                    <span class="footer-title">JULIE RESUME</span>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="footer-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, maxime.
+            </div>
+        </section>
+        <section id="cool">
+            <div class="cool-banner">
+                <div class="mask">
+                    <span class="cool-title">Done!</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
