@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>parallax回家練習</title>
+    <title>parallax學校練習</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Pacifico&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
             height: 1500px;
-
         }
 
         .index-banner {
@@ -20,6 +23,7 @@
             background-image: url("https://scontent.frmq2-2.fna.fbcdn.net/v/t1.0-9/296492_2454626797866_1868505519_n.jpg?_nc_cat=104&_nc_oc=AQl9oxWKAoT1XAhfo7Z_Baqpj8FjbOno-rM40sHbpjFaLoWGacILpGUDe_eQgiYDVcU&_nc_ht=scontent.frmq2-2.fna&oh=181326baf72ec419accf2dee4c4b5f51&oe=5E30D9FF");
             background-position: center;
             background-attachment: fixed;
+            background-size: cover;
         }
 
         .mask {
@@ -37,6 +41,8 @@
             left: calc(50% - 145px);
             top: calc(50% - 44px);
             letter-spacing: 5px;
+            font-family: 'Pacifico', cursive;
+
         }
 
         #content {
@@ -46,8 +52,6 @@
         .content-title {
             text-align: center;
             color: purple;
-
-
         }
 
         .content-text {
@@ -55,32 +59,30 @@
             color: rgb(48, 46, 46);
             line-height: 1.5;
             font-size: 22px;
-
-        }
-
-        #banner {
-            padding: 50px;
+            font-family: 'Lobster', cursive;
         }
 
         .content-banner {
+            position: relative;
             width: 100%;
-            height: 50vh;
-            background-image: url("https://scontent.frmq2-1.fna.fbcdn.net/v/t1.0-9/392729_2454617037622_1861003414_n.jpg?_nc_cat=106&_nc_oc=AQkzChp9JqFXXDrCvmt_8q2FbR11YJtGLm6RfJx8prQC8GBKfEtuKv2f31cpfRKVJyY&_nc_ht=scontent.frmq2-1.fna&oh=d9b82299c27b291d76a1577b6a454af4&oe=5E21C0DA");
+            height: 100vh;
+            background-image: url("https://images.freeimages.com/images/large-previews/c64/interior-view-1558829.jpg");
             background-position: center;
             background-attachment: fixed;
+            background-size: cover;
         }
 
         .banner-title {
+            position: absolute;
             padding: 42px;
             font-size: 30px;
             color: green;
-            position: relative;
-            left: calc(50% - 145px);
+            top: calc(50% - 50px);
+            left: calc(50% - 125px);
             letter-spacing: 5px;
+            font-family: 'Source Serif Pro', serif;
         }
-
         .banner-text {
-            margin-top: 20%;
             padding: 15px;
             background-color: saddlebrown;
             text-align: justify;
@@ -88,30 +90,26 @@
             line-height: 1.5;
             font-size: 18px;
         }
-
-        #footer {
-            padding: 50px;
-        }
-
         .footer-banner {
             width: 100%;
-            height: 50vh;
-            background-image: url("https://scontent.frmq2-1.fna.fbcdn.net/v/t1.0-9/305345_2454615877593_1628602478_n.jpg?_nc_cat=111&_nc_oc=AQkCLxKJORdsIG8GpazXe7uTqBMn1IE_-FGNffibvJMTjjv9L5tuUnDccod22XVucog&_nc_ht=scontent.frmq2-1.fna&oh=6f8eb65484ce1ba127ebfc25210fdc59&oe=5E63ADD3");
+            height: 100vh;
+            position: relative;
+            background-image: url("https://images.freeimages.com/images/large-previews/eef/wrinkle-in-time-1490483.jpg");
             background-position: center;
             background-attachment: fixed;
+            background-size: cover;
         }
-
         .footer-title {
             padding: 42px;
             font-size: 30px;
             color: red;
-            position: relative;
-            left: calc(50% - 145px);
+            position: absolute;
+            left: calc(50% - 125px);
+            top: calc(50% - 50px);
             letter-spacing: 5px;
+            font-family: 'Pacifico', cursive;
         }
-
         .footer-text {
-            margin-top: 20%;
             padding: 15px;
             background-color: rgb(3, 97, 92);
             text-align: justify;
@@ -119,15 +117,13 @@
             line-height: 1.5;
             font-size: 18px;
         }
-        #cool{
-            padding: 50px;
-        }
         .cool-banner {
             width: 100%;
             height: 100vh;
-            background-image: url("https://scontent.frmq2-2.fna.fbcdn.net/v/t1.0-9/391642_2454620717714_770185883_n.jpg?_nc_cat=100&_nc_oc=AQmI8QtArwIQZI98axsuO4BaJ1uberm1syPF951-sZPlGlbus0oOlBdnJBDCP_muCRA&_nc_ht=scontent.frmq2-2.fna&oh=d4e8e9f3aedc434ccb596b88c9fd7cf3&oe=5E63A99A");
+            background-image: url("https://images.freeimages.com/images/large-previews/db9/pocket-watch-1-1470859.jpg");
             background-position: center;
             background-attachment: fixed;
+            background-size: cover;
         }
         .cool-title {
             padding: 12px;
@@ -136,16 +132,14 @@
             color: white;
             position: relative;
             left: calc(50% - 125px);
-            top: calc(50% - 44px);
-            letter-spacing: 5px;
+            top: calc(50% - 31px);
+            letter-spacing: 15px;
+            font-family: 'Anton', sans-serif;
+
+
         }
     </style>
-
-
-
 </head>
-
-
 <body>
     <main>
         <section id="index-banner">
@@ -175,13 +169,13 @@
             <div class="content-banner">
                 <div class="mask">
                     <span class="banner-title">JULIE RESUME</span>
-                    <div class="banner-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quisquam quod, incidunt
-                        adipisci eligendi totam quam quae vel dicta recusandae laboriosam dolor perspiciatis. Vitae eius
-                        adipisci, commodi quam ducimus corporis!
-                    </div>
                 </div>
             </div>
+            </div>
+        </section>
+        <section>
+            <div class="banner-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, iusto.
             </div>
         </section>
 
@@ -189,24 +183,22 @@
             <div class="footer-banner">
                 <div class="mask">
                     <span class="footer-title">JULIE RESUME</span>
-                    <div class="footer-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minima quam dignissimos.
-                        Nostrum, optio a. Mollitia, voluptatibus numquam. Consectetur animi eligendi ipsam suscipit sit
-                        molestiae expedita magnam quis est sunt quo aut, beatae veritatis minima quae saepe voluptatum
-                        earum pariatur repellendus aperiam reprehenderit, nemo similique! Animi ullam eveniet ad ipsa.
-
-                    </div>
                 </div>
             </div>
             </div>
         </section>
+        <section>
+            <div class="footer-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, maxime.
+            </div>
+        </section>
         <section id="cool">
-                <div class="cool-banner">
-                    <div class="mask">
-                        <span class="cool-title">COOL</span>
-                    </div>
+            <div class="cool-banner">
+                <div class="mask">
+                    <span class="cool-title">Done!</span>
                 </div>
-            </section>
+            </div>
+        </section>
     </main>
 
 </body>
